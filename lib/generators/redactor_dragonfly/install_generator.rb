@@ -22,7 +22,7 @@ module RedactorDragonfly
         template "model.rb", File.join('app/models', self_dir, "attach.rb")
       end
 
-      def create_migration
+      def copy_migration
         migration_template "migration.rb", File.join('db/migrate', "create_redactor_dragonfly_attaches.rb")
       end
 
