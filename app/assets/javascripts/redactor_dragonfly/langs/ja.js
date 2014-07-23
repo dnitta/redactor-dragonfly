@@ -55,7 +55,7 @@ $.Redactor.opts.langs['ja'] = {
 	upload: 'アップロード',
 	download: 'ダウンロード',
 	choose: '選択',
-	or_choose: 'または',
+	or_choose: 'または選択',
 	drop_file_here: 'ファイルをここにドロップ',
 	align_left:	'左揃え',
 	align_center: '中央揃え',
@@ -66,9 +66,10 @@ $.Redactor.opts.langs['ja'] = {
 	deleted: '打消し',
 	anchor: 'アンカー',
 	link_new_tab: '新しいタブでリンクを開く',
-	underline: '下線',
-	alignment: '整列',
-	filename: 'ファイルの名称 (オプション)',
-	edit: '設定'
+	underline: 'アンダーライン',
+	alignment: '行揃え',
+	filename: '名前（オプション）',
+	edit: '編集',
+	center: 'Center'
 };
 })( jQuery );
