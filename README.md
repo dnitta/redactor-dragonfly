@@ -2,7 +2,7 @@
 
 ## Gemfile
 
-    gem 'redactor-dragonfly', github: 'dnitta/redactor-rails'
+    gem 'redactor-dragonfly', github: 'dnitta/redactor-dragonfly'
 
 ## Generate model and migration
 
