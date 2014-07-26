@@ -1,3 +1,3 @@
 class RedactorDragonfly::Attach < ActiveRecord::Base
-  image_accessor :file
+  dragonfly_accessor :file
 end
