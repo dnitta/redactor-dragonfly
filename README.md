@@ -27,11 +27,8 @@ $(function(){
   $('.redactor').redactor({
     imageGetJson:"/redactor_dragonfly/images",
     imageUpload:"/redactor_dragonfly/images?" + window.csrf_argument,
-    clipboardUploadUrl: '/redactor_dragonfly/images?' + window.csrf_argument,
     fileUpload:"/redactor_dragonfly/files?" + window.csrf_argument,
-    lang:"ja",
-    focus: true,
-    toolbarFixed: true
+    lang:"ja"
   });
 });
 </script>
